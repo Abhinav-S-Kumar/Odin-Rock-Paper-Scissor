@@ -33,7 +33,6 @@ function playGame() {
     }
   }
 
-  // 5 rounds
   for (let i = 1; i <= 5; i++) {
     console.log(`---------- Round ${i} ----------`);
     const humanSelection = getHumanChoice();
